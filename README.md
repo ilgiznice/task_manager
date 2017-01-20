@@ -1,13 +1,13 @@
 ### General
 
-This is a test task for task managment system. It was built on Yii2 framework.
-It contains of 6 methods:
-1. POST /users PARAMS name, email - creates a new user
-2. PUT /users/<id> PARAMS [name], [email] - updates user
-3. POST /tasks PARAMS name, [description], userID - creates a new task binded to user
-4. GET /tasks/<id>/contractors - list of users applied to task
-5. POST /tasks/<id>/apply PARAMS userID - apply to task
-6. POST /tasks/<id>/bind PARAMS userID - choose user to perform the task
+This is a test task for task managment system. It was built on Yii2 framework.  
+It contains of 6 methods:  
+1. POST /users PARAMS name, email - creates a new user  
+2. PUT /users/<id> PARAMS [name], [email] - updates user  
+3. POST /tasks PARAMS name, [description], userID - creates a new task binded to user  
+4. GET /tasks/<id>/contractors - list of users applied to task  
+5. POST /tasks/<id>/apply PARAMS userID - apply to task  
+6. POST /tasks/<id>/bind PARAMS userID - choose user to perform the task  
 
 ### Requirements
 
